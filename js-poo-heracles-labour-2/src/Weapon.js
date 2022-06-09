@@ -1,9 +1,9 @@
-const damage = 10
+const damageW = 10
 
 class Weapon {
-    constructor(name){
+    constructor(name,damage){
         this.name = name;
-        this.damage = damage;
+        this.damage = damageW;
     }
 }
 module.exports = Weapon;
