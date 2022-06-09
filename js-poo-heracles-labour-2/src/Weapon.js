@@ -6,5 +6,4 @@ class Weapon {
         this.damage = damage;
     }
 }
-
 module.exports = Weapon;
